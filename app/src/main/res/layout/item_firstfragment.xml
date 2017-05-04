@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+<LinearLayout
+    android:padding="3dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/simpleView"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        fresco:placeholderImage="@mipmap/app_logo"/>
+    <TextView
+        android:id="@+id/news_text"
+        android:layout_marginLeft="5dp"
+        android:textSize="20sp"
+        android:text="加载失败"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorGray"/>
+</LinearLayout>
